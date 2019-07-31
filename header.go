@@ -1,0 +1,157 @@
+package main
+
+const (
+	header = `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- =================================== -->
+    <!-- 		  COMPATIBILITY 			 -->
+    <!-- =================================== -->
+
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- =================================== -->
+    <!-- 			  TITLE 			 	 -->
+    <!-- =================================== -->
+
+    <title>Billion Twenty</title>
+
+    <!-- =================================== -->
+    <!-- 			MORDERNIZR 			 	 -->
+    <!-- =================================== -->
+
+    <script src="assets/js/modernizr.js"></script>
+
+    <!-- =================================== -->
+    <!-- 			  STYLES 				 -->
+    <!-- =================================== -->
+
+    <!-- BOOTSTRAP MIN -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- MEDIA ELEMENT -->
+    <link href="assets/css/mediaelementplayer.min.css" rel="stylesheet" />
+
+    <!-- MAGNIFIC POPUP CSS -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+
+    <!-- THEME CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- FONT AWESOME -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- =================================== -->
+    <!-- 		 	THEME COLOR 			 -->
+    <!-- =================================== -->
+
+    <meta name="theme-color" content="#fff" />
+
+    <!-- =================================== -->
+    <!-- 			CONDITIONAL 			 -->
+    <!-- =================================== -->
+
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <!-- =================================== -->
+    <!-- 			 VIEWPORT 				 -->
+    <!-- =================================== -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+
+    <!-- =================================== -->
+    <!-- 			  AUTHOR 				 -->
+    <!-- =================================== -->
+
+    <meta name="author" content="Billion Twenty" />
+
+    <!-- =================================== -->
+    <!-- 			 CONTENT 				 -->
+    <!-- =================================== -->
+
+    <meta name="keywords" content="podcast, billion twenty, india, culture, art, society, politics, movies, books, tv, history" />
+    <meta name="description" content="Billion Twenty Media is a podcasting company that aims to tell the stories of billion+ voices from India." />
+
+    <!-- =================================== -->
+    <!-- 			 ROBOTS 				 -->
+    <!-- =================================== -->
+
+    <meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
+    <meta name="robots" content="index, follow">
+    <meta name="msnbot" content="NOODP" />
+
+    <!-- =================================== -->
+    <!-- 			 FACEBOOK 				 -->
+    <!-- =================================== -->
+
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Billion Twenty" />
+    <meta property="og:description" content="Billion Twenty Media Podcast" />
+    <meta property="og:url" content="http://www.billiontwenty.com/" />
+    <meta property="og:site_name" content="Billion Twenty" />
+    <meta property="og:image" content="assets/img/LL3.png" />
+
+    <!-- =================================== -->
+    <!-- 			  TWITTER 				 -->
+    <!-- =================================== -->
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="http://www.billiontwenty.com/" />
+    <meta name="twitter:creator" content="@billiontwenty" />
+    <meta name="twitter:title" content="Billion Twenty" />
+    <meta name="twitter:description" content="Billion Twenty Media Podcast" />
+    <meta name="twitter:image" content="assets/img/LL3.png" />
+
+    <!-- =================================== -->
+    <!-- 			  FAVICON 				 -->
+    <!-- =================================== -->
+
+    <link rel="icon" href="assets/img/favicon.png" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+</head>
+
+<body itemscope itemtype="http://schema.org/WebSite">
+
+    <!-- ===== HEADER ===== -->
+    <header class="header absolute" itemscope itemtype="http://schema.org/Organization">
+        <div class="container">
+
+            <!-- ===== LOGO ===== -->
+            <h1 class="logo">
+                <a href="index.html"><img itemprop="logo" id="logo" src="assets/img/LL3.png" alt="Billion Twenty Media" title="Billion Twenty Media" /></a>
+            </h1>
+
+            <!-- ===== NAVIGATION ===== -->
+            <nav class="navigation">
+                <!-- ===== MENU ===== -->
+                <ul class="menu">
+                    <li class="menuitem active"><a href="index.html">Home</a></li>
+                    <li class="menuitem dropdown">
+                        <a href="#">Shows</a>
+                        <ul class="droplist">
+                            <li class="droplist-item"><a href="intheend.html">In The End</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem"><a href="about-us.html">About Us</a></li>
+                    <li class="menuitem"><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- ===== HAMBURGUER ICON ===== -->
+                <a href="#" class="btn-hamburguer-menu"><i class="fa fa-bars"></i></a>
+            </nav>
+
+        </div>
+    </header>`
+)
