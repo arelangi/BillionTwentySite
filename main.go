@@ -37,22 +37,22 @@ func main() {
 	aboutUsPage := header + aboutUsHeader + aboutUsTeam + newsletter + footer
 	contactUsPage := header + contactUs + newsletter + footer
 
-	err = ioutil.WriteFile("_site/index.html", []byte(indexPage), 0644)
+	err = ioutil.WriteFile("docs/index.html", []byte(indexPage), 0644)
 	if err != nil {
 		panic(err)
 	}
 
-	err = ioutil.WriteFile("_site/intheend.html", []byte(episodePage), 0644)
+	err = ioutil.WriteFile("docs/intheend.html", []byte(episodePage), 0644)
 	if err != nil {
 		panic(err)
 	}
 
-	err = ioutil.WriteFile("_site/about-us.html", []byte(aboutUsPage), 0644)
+	err = ioutil.WriteFile("docs/about-us.html", []byte(aboutUsPage), 0644)
 	if err != nil {
 		panic(err)
 	}
 
-	err = ioutil.WriteFile("_site/contact.html", []byte(contactUsPage), 0644)
+	err = ioutil.WriteFile("docs/contact.html", []byte(contactUsPage), 0644)
 	if err != nil {
 		panic(err)
 	}
