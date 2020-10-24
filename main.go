@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 
@@ -26,6 +27,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	fmt.Println(feed.Rss.Channel.Item[0].Summary)
 
 	latestPodcast := getLatest(feed)
 	mainContent := getMainContent(feed)
